@@ -50,6 +50,7 @@
 					<region>us-east-2</region>
 					<workerType>Micro</workerType>
 					<workers>1</workers> 
+					<objectStoreV2>true</objectStoreV2>
 					<properties>
 		                <key>value</key>
 		            </properties>
