@@ -46,7 +46,10 @@
 		            <password>Pa55w0rd!@</password>
 		            <applicationName>jenkins-example1</applicationName>
 		            <environment>Sandbox</environment>
-		            <properties>
+					<region>us-east-2</region>
+					<workerType>Micro</workerType>
+					<workers>1</workers> 
+					<properties>
 		                <key>value</key>
 		            </properties>
 		        </cloudHubDeployment>
