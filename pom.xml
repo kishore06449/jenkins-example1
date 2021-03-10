@@ -32,12 +32,13 @@
 				<configuration>
 				</configuration>
 			</plugin>
+					
 			
 			<!-- Deploy to Cloudhub -->
          <plugin>
             <groupId>org.mule.tools.maven</groupId>
             <artifactId>mule-maven-plugin</artifactId>
-            <version>3.3.5</version>
+            <version>3.6.3</version>
             <configuration>
 		        <cloudHubDeployment>
 		            <uri>https://anypoint.mulesoft.com</uri>
